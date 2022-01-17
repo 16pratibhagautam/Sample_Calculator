@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+       Scanner obj=new Scanner(System.in);
+       System.out.println("Enter first input: ");
+       String str1 = obj.next();
+       float x = Float.parseFloat(str1);
+       
+       System.out.println("Enter second input: ");
+       String str2 = obj.next();
+       float y = Float.parseFloat(str2);
+       
+       System.out.println("Addition is :"+(x+y));
+       System.out.println("Subtraction is :"+(x-y));
+       System.out.println("Multiplication is :"+(x*y));
+       System.out.println("Division is :"+(x/y));
+       
+    }
+}
